@@ -1,0 +1,60 @@
+NOMBRE: zetwall // estrella en criollo hawaiano
+
+datatypes:
+	int
+	char
+	string*
+	bool
+	array
+	float (double)
+	void // for return in functions
+
+keywords.
+	if
+	else
+	elif
+	while
+	do 
+	
+	for *
+	return // for functions
+
+	global *  //  for global variables
+		
+	read()* // read input
+	write()* //
+
+	Logic operators:
+		and
+		or
+		not
+
+operators:
+	<
+	>
+	=
+	<=
+	>=
+	== 
+	!=
+	+
+	-
+	*
+	/
+	%
+	** (pow)
+
+symbols:
+	{} // for blocks
+	() // conditionals and precedence
+	[] // for arrays
+	\n // end of line // for strings
+	;
+	, // for parameters on functions	
+	// -> for comment line
+
+		
+	
+	
+	 
+	

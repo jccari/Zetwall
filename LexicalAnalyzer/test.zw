@@ -1,0 +1,11 @@
+int asdf(a,b,c){
+	n = 5+3 ;	
+	return n;	
+}
+
+a = [ 1,2  ;
+#p = 103.12 ;
+#a = "h" ;
+#while n > 0 do {
+#  p = p * n ;
+#}
