@@ -1,6 +1,8 @@
 import sys
 import re
 from lexer import get_tokens  
+from colorama import init, Fore, Back, Style
+
 
 token_exprs = [
 	#(r'(void|float|int) \w*\([\w*,]*\w\)\{\n\}',	'FUNCTION'),

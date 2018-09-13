@@ -3,7 +3,7 @@ int asdf(a,b,c){
 	return n;	
 }
 
-a = [ 1,2  ;
+a = [ 1,2 ^  ;
 #p = 103.12 ;
 #a = "h" ;
 #while n > 0 do {
