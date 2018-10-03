@@ -1,0 +1,44 @@
+program -> stm_list
+stm_list ->  stm_list stmt_op | stm_list stmt | stmt
+stmt_op -> loop | bifurcation
+stmt -> id = expr ;
+bifurcation -> if (condition_big) then { stm_list } else{ stm_list }
+bifurcation -> if (condition_big) then { stm_list }
+loop -> while (condition_big) then { stm_list }
+condition_big -> condition log_op condition_big
+condition_big -> condition
+
+condition -> expr comp_op expr 
+condition -> expr 
+
+expr -> term
+expr -> expr add_op term
+
+expr -> term mult_op expr 
+term -> factor
+term -> term mult_op factor
+factor -> term2
+factor -> factor pow term2
+term2 -> (expr)
+term2 -> id
+term2 -> number
+add_op -> +
+add_op -> -
+mult_op -> *
+mult_op -> /
+pow -> **
+modul_op -> %
+
+log_op -> or
+log_op -> and
+log_op ->  not
+
+//Comparison Operators
+comp_op -> < 
+comp_op -> >
+comp_op -> =
+comp_op -> <= 
+comp_op -> >= 
+comp_op -> ==
+comp_op -> !=
+
